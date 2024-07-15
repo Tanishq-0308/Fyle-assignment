@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap");
+    </style>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div
+    
+      class="flex items-center justify-center h-[95vh] max-[750px]:h-auto bg-slate-950 flex-col"
+    >
+    <div class="w-[400px] shadow-2xl z-10 flex justify-center items-center bg-white fixed top-[-50%] left-[50%] translate-x-[-50%] translate-y-[-50%] p-6" id="contact">
+      <form class="max-w-md mx-auto flex flex-col gap-4 " action="https://getform.io/f/alljljka" method="post">
+        <button class="fixed right-8 border-2" onclick="hideForm()">❌</button>
+        <h1 class="font-bold text-xl text-gray-700">Talk to us</h1>
+        <div class="relative z-0 w-full mb-5 group">
+            <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm bg-transparent border-0 border-b-2 text-black border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Work Email*</label>
+        </div>       
+        <div class="grid md:grid-cols-2 md:gap-6">
+          <div class="relative z-0 w-full mb-5 group">
+              <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+              <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name*</label>
+          </div>
+          <div class="relative z-0 w-full mb-5 group">
+              <input type="text" name="floating_last_name" id="floating_last_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none  dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+              <label for="floating_last_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last name*</label>
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" name="checkbox" id="checkbox" class="custom-checkbox" !important>
+          <label for="checkbox" class="text-[#616678] ml-1 ">I agree to Fyle's terms and conditions, and provide consent to send me communication.</label>
+        </div>
+        <button type="submit"  class="text-white bg-[#FF3366] hover:bg-[#81263d85] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-full px-5 py-2.5 text-center">Submit</button>
+      </form>
+        </div>
+      <div
+        class="flex bg-white w-[67%] max-[750px]:flex-col max-[750px]:items-center"
+      >
+        <div
+          class="left flex flex-col justify-center items-start p-11 gap-[40px] w-[75%]"
+        >
+          <h4 class="font-poppins text-[#FF3147] text-3xl">AWARD WINNING</h4>
+          <h1
+            class="font-cormorant font-extrabold text-5xl max-[750px]:text-3xl"
+          >
+            DIGITAL MARKETING AGENCY
+          </h1>
+          <p class="font-poppins text-xs leading-6 font-medium">
+            Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+            Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed
+            lacus nec risus finibus feugiat et fermentum
+          </p>
+          <button onclick="contactForm()"
+            class="bg-[#FF3147] hover:scale-[1.1] transition rounded-md duration-700 hover:text-[#fd0808] hover:bg-[#ff6d7948] ease-in-out text-white font-poppins text-xs px-5 py-3"
+          >
+            CONTACT US
+          </button>
+        </div>
+        <div class="right">
+          <img
+            src="/assets/hero.png"
+            alt=""
+            class="flex justify-center items-center"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="page2 flex flex-col items-center h-full bg-[#fafafa] overflow-hidden"
+    >
+      <div class="w-[67%] my-[50px] p-11">
+        <h4 class="font-poppins text-[#FF3147] text-xl font-[500]">
+          WHAT WE DO
+        </h4>
+        <div
+          class="mt-8 flex justify-between items-start max-[600px]:flex-col w-[100%]"
+        >
+          <h1
+            class="font-cormorant w-[40%] font-extrabold text-4xl max-[750px]:text-3xl"
+          >
+            SERVICES PROVIDE FOR YOU
+          </h1>
+          <p class="font-poppins text-xs leading-6 font-medium w-[53%]">
+            Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+            Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed
+            lacus nec risus finibus feugiat et fermentum
+          </p>
+        </div>
+        <div class="slider my-5 overflow-hidden w-[1300px]">
+          <div
+            class="sliding flex h-[400px] mt-8 gap-5 animate-slideRight hover:ani"
+          >
+            <div class="card w-[400px] bg-first bg-cover bg-center">
+              <div
+                class="h-full opacity-0 hover:opacity-100 transition duration-700 ease-in-out bg-[#f34859] text-white flex justify-center items-center flex-col rounded-l text-center gap-6"
+              >
+                <img class="h-11" src="/assets/icon/icon.png" alt="" />
+                <h5 class="font-cormorant text-xl font-medium">
+                  WEB DEVELOPMENT
+                </h5>
+                <p class="text-xs leading-5">
+                  Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                  Pellentesque
+                </p>
+                <div>
+                  <button
+                    class="text-[#ff3147] flex justify-center items-center bg-white text-[10px] font-bold p-2 hover:scale-[1.1] transition rounded-md duration-700 hover:text-[#ffffff] hover:bg-[#0c0b0be7] ease-in-out"
+                  >
+                    <a href="https://www.fylehq.com/" target="_blank">READ MORE</a>
+                    <img
+                      src="/assets/arrow/arrow.png"
+                      alt=""
+                      class="w-8 ml-3"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-[400px] bg-second bg-cover bg-center">
+              <div
+                class="h-full opacity-0 hover:opacity-100 transition duration-700 ease-in-out bg-[#f34859] rounded-l text-white flex justify-center items-center flex-col text-center gap-6"
+              >
+                <img class="h-11" src="/assets/icon/icon.png" alt="" />
+                <h5 class="font-cormorant text-xl font-medium">
+                  WEB DEVELOPMENT
+                </h5>
+                <p class="text-xs leading-5">
+                  Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                  Pellentesque
+                </p>
+                <div>
+                  <button
+                    class="text-[#ff3147] flex justify-center items-center bg-white text-[10px] font-bold p-2 hover:scale-[1.1] transition rounded-md duration-700 hover:text-[#ffffff] hover:bg-[#0c0b0be7] ease-in-out"
+                  >
+                    <a href="https://www.fylehq.com/" target="_blank">READ MORE</a>
+                    <img
+                      src="/assets/arrow/arrow.png"
+                      alt=""
+                      class="w-8 ml-3"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-[400px] bg-third bg-center bg-cover">
+              <div
+                class="h-full opacity-0 hover:opacity-100 transition duration-700 ease-in-out bg-[#f34859] rounded-l text-white flex justify-center items-center flex-col text-center gap-6"
+              >
+                <img class="h-11" src="/assets/icon/icon.png" alt="" />
+                <h5 class="font-cormorant text-xl font-medium">
+                  WEB DEVELOPMENT
+                </h5>
+                <p class="text-xs leading-5">
+                  Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                  Pellentesque
+                </p>
+                <div>
+                  <button
+                    class="text-[#ff3147] flex justify-center items-center bg-white text-[10px] font-bold p-2 hover:scale-[1.1] transition rounded-md duration-700 hover:text-[#ffffff] hover:bg-[#0c0b0be7] ease-in-out"
+                  >
+                    <a href="https://www.fylehq.com/" target="_blank">READ MORE</a>
+                    <img
+                      src="/assets/arrow/arrow.png"
+                      alt=""
+                      class="w-8 ml-3"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-[400px] bg-fourth bg-cover bg-center">
+              <div
+                class="h-full opacity-0 hover:opacity-100 transition duration-700 ease-in-out bg-[#f34859] rounded-l text-white flex justify-center items-center flex-col text-center gap-6"
+              >
+                <img class="h-11" src="/assets/icon/icon.png" alt="" />
+                <h5 class="font-cormorant text-xl font-medium">
+                  WEB DEVELOPMENT
+                </h5>
+                <p class="text-xs leading-5">
+                  Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                  Pellentesque
+                </p>
+                <div>
+                  <button
+                    class="text-[#ff3147] flex justify-center items-center bg-white text-[10px] font-bold p-2 hover:scale-[1.1] transition rounded-md duration-700 hover:text-[#ffffff] hover:bg-[#0c0b0be7] ease-in-out"
+                  >
+                    <a href="https://www.fylehq.com/" target="_blank">READ MORE</a>
+                    <img
+                      src="/assets/arrow/arrow.png"
+                      alt=""
+                      class="w-8 ml-3"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="card w-[400px] bg-fifth bg-cover bg-center">
+              <div
+                class="h-full opacity-0 hover:opacity-100 transition duration-700 ease-in-out bg-[#f34859] rounded-l text-white flex justify-center items-center flex-col text-center gap-6"
+              >
+                <img class="h-11" src="/assets/icon/icon.png" alt="" />
+                <h5 class="font-cormorant text-xl font-medium">
+                  WEB DEVELOPMENT
+                </h5>
+                <p class="text-xs leading-5">
+                  Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+                  Pellentesque
+                </p>
+                <div>
+                  <button
+                    class="text-[#ff3147] flex justify-center items-center bg-white text-[10px] font-bold p-2 hover:scale-[1.1] transition rounded-md duration-700 hover:text-[#ffffff] hover:bg-[#0c0b0be7] ease-in-out"
+                  >
+                    <a href="https://www.fylehq.com/" target="_blank">READ MORE</a>
+                    <img
+                      src="/assets/arrow/arrow.png"
+                      alt=""
+                      class="w-8 ml-3"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dots flex text-[7px] gap-6 p-[9px]]">
+          <div class="dot1 dot p-[9px] flex justify-center items-center">
+            <i class="ri-circle-fill"></i>
+          </div>
+          <div class="dot2 dot p-[9px] flex justify-center items-center">
+            <i class="ri-circle-fill"></i>
+          </div>
+          <div class="dot3 dot p-[9px] flex justify-center items-center">
+            <i class="ri-circle-fill"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page3 flex justify-center items-center flex-col">
+      <div class="container-1 flex flex-col justify-center items-center w-[67%] p-11 gap-8 mt-[50px]">
+        <h4 class="font-poppins text-[#FF3147] text-xl font-[500]">
+          WHY CHOOSE US
+        </h4>
+        <h1 class="font-cormorant font-extrabold text-4xl max-[750px]:text-3xl">
+          WHY WE ARE BEST
+        </h1>
+        <div class="flex gap-10 max-[600px]:flex-col">
+          <div class="flex flex-col justify-center items-start gap-3">
+            <img src="/assets/icon/1.png" alt="" class="h-12">
+            <h5 class="font-poppins text-[14px] font-semibold">Clarified Vision & Target</h5>
+            <p class="font-poppins text-xs leading-4 font-medium">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+          </div>
+          <div class="flex flex-col justify-center items-start gap-3">
+            <img src="/assets/icon/2.png" alt="" class="h-12">
+            <h5 class="font-poppins text-[14px] font-semibold">High Performance</h5>
+            <p class="font-poppins text-xs leading-3 font-medium">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+          </div>
+          <div class="flex flex-col justify-center items-start gap-3">
+            <img src="/assets/icon/3.png" alt="" class="h-12">
+            <h5 class="font-poppins text-[14px] font-semibold">Maintain Security</h5>
+            <p class="font-poppins text-xs leading-3 font-medium">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+          </div>
+          <div class="flex flex-col justify-center items-start gap-3">
+            <img src="/assets/icon/4.png" alt="" class="h-12">
+            <h5 class="font-poppins text-[14px] font-semibold">Better Strategy & Quality</h5>
+            <p class="font-poppins text-xs leading-3 font-medium">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container-2 flex flex-col justify-center items-center  w-[67%] p-11 gap-8 mb-8 ">
+        <h4 class="font-poppins text-[#FF3147] text-xl font-[500]">
+          OUR PROJECT
+        </h4>
+        <h1 class="font-cormorant font-extrabold text-4xl max-[750px]:text-3xl">
+          WHY WE ARE BEST
+        </h1>
+        <div class="W-[67%] flex gap-4 max-[850px]:flex-col">
+          <div class="left w-[65%]">
+            <img src="/assets/image.png" id="holder" alt="" class="h-auto w-auto ">
+          </div>
+          <div class="right w-[30%] max-[850px]:w-auto">
+            <div class="p-5  bg-[#fafafa]  flex flex-col gap-5 hover:bg-[#ff3147] hover:text-white transition duration-700 ease-in-out" onclick="changeImage('1')">
+              <h1 class="font-poppins text-[14px] font-semibold">Genderless Kei - Japan's Hot</h1>
+              <p class="font-poppins text-xs leading-5 font-medium">Set to launch on the manufactures's new A330new aircraft in 2017, it's offering lots of</p>
+            </div>
+            <div class="p-5 flex flex-col gap-5 bg-[#fafafa] hover:bg-[#ff3147] hover:text-white transition duration-700 ease-in-out" onclick="changeImage('2')">
+              <h1 class="font-poppins text-[14px] font-semibold">Better Strategy & Quality</h1>
+              <p class="font-poppins text-xs leading-5 font-medium">Set to launch on the manufactures's new A330new aircraft in 2017, it's offering lots of</p>
+            </div>
+            <div class="p-5 flex flex-col gap-5 bg-[#fafafa] hover:bg-[#ff3147] hover:text-white transition duration-700 ease-in-out" onclick="changeImage('3')">
+              <h1 class="font-poppins text-[14px] font-semibold">Genderless Kei - Japan's Hot</h1>
+              <p class="font-poppins text-xs leading-4 font-medium">Set to launch on the manufactures's new A330new aircraft in 2017, it's offering lots of</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page4 bg-[#fafafa] flex justify-center items-center flex-col">
+      <div class="container container-1 flex flex-col justify-center items-center w-[67%] my-[60px] gap-7">
+        <h4 class="font-poppins text-[#FF3147] text-xl font-[500]">
+          EXPERTS GROWTH
+        </h4>
+        <h1 class="font-cormorant font-extrabold text-4xl max-[750px]:text-3xl">
+          OUR COMPANY GROWTH
+        </h1>
+        <div class="grid grid-cols-4 m-2 gap-4 max-[1000px]:grid-cols-2 max-[500px]:grid-cols-1">
+          <div class="flex hover:shadow-2xl transition duration-150 ease-in-out gap-3 flex-col p-5 justify-center items-center bg-white ">
+            <img src="/assets/Page-4-icon/heart (2).png" class="h-7" alt="">
+            <h2 class=" font-poppins text-[45px]">199+</h2>
+            <p class="font-poppins text-[16px]">Satisfied Customers</p>
+          </div>
+          <div class="flex hover:shadow-2xl transition duration-150 ease-in-out gap-3 flex-col justify-center items-center bg-white">
+            <img src="/assets/Page-4-icon/clock (3).png" class="h-7" alt="">
+            <h1 class=" font-poppins text-[45px]">1591+</h1>
+            <p class="font-poppins text-[16px]">Days Of Operation</p>
+          </div>
+          <div class="flex flex-col justify-center items-center bg-white hover:shadow-2xl transition duration-150 ease-in-out gap-3">
+            <img src="/assets/Page-4-icon/Path 4402.png" class="h-7" alt="">
+            <h1 class=" font-poppins text-[45px]">283 +</h1>
+            <p class="font-poppins text-[16px]">Complete Projects</p>
+          </div>
+          <div class="flex flex-col justify-center items-center bg-white hover:shadow-2xl transition duration-150 ease-in-out gap-3">
+            <img src="/assets/Page-4-icon/Path 4406.png" class="h-7" alt="">
+            <h1 class=" font-poppins text-[45px]">75+</h1>
+            <p class="font-poppins text-[16px]">Win Awards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page5 flex flex-col justify-center items-center">
+      <h4 class=" mt-12 font-poppins text-[#FF3147] text-xl font-[500]">
+        CLIENT'S FEEDBACK
+      </h4>
+      <h1 class="font-cormorant mt-5 font-extrabold text-4xl max-[750px]:text-3xl">
+        PEOPLE SAY'S ABOUT US!
+      </h1>
+      <div class="flex flex-col items-start justify-center w-[45%]">
+        <img src="/assets/Quotemarks-left/Quotemarks-left.png" alt="" class="relative top-6 right-3 -z-10 h-9">
+      <p class="font-poppins text-[15px] font-medium leading-6">Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+      <h1 class="text-[#ff3147] mt-2 mb-14 font-bold flex items-start">JANNAT TUMPA <span class="text-gray-500 font-normal">- COO, AMERIMAR ENTERPRISES, INC.</span></h1>
+      </div>
+    </div>
+    <div class="page6 bg-[#f72d3e] w-full h-[30vh] flex justify-center items-center">
+      <img src="/assets/Group 500/Group 500.png" alt="" class="w-[60%]">
+    </div>
+    
+
+
+
+    <script src="style.js"></script>
+  </body>
+</html>
