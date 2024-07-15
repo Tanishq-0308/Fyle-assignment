@@ -19,13 +19,13 @@ const holder=document.querySelector('#holder');
 
 function changeImage(input){
     if(input == '1'){
-        holder.src='/assets/bgimg1.jpg';
+        holder.src='assets/bgimg1.jpg';
     }
     else if (input == '2'){
-        holder.src='/assets/image.png';
+        holder.src='assets/image.png';
     }
     else if(input =='3'){
-        holder.src='/assets/bgimg2.jpg';
+        holder.src='assets/bgimg2.jpg';
     }
 }
 
