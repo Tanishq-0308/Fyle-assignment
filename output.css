@@ -991,23 +991,23 @@ video {
 }
 
 .bg-fifth {
-  background-image: url('/assets/5.jpg');
+  background-image: url('assets/5.jpg');
 }
 
 .bg-first {
-  background-image: url('/assets/1.png');
+  background-image: url('assets/1.png');
 }
 
 .bg-fourth {
-  background-image: url('/assets/4.jpg');
+  background-image: url('assets/4.jpg');
 }
 
 .bg-second {
-  background-image: url('/assets/2.png');
+  background-image: url('assets/2.png');
 }
 
 .bg-third {
-  background-image: url('/assets/3.png');
+  background-image: url('assets/3.png');
 }
 
 .bg-cover {
