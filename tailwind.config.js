@@ -8,11 +8,11 @@ module.exports = {
         'poppins':['Poppins'],
       },
       backgroundImage:{
-        'first':"url('/assets/1.png')",
-        'second':"url('/assets/2.png')",
-        'third':"url('/assets/3.png')",
-        'fourth':"url('/assets/4.jpg')",
-        'fifth':"url('/assets/5.jpg')",
+        'first':"url('assets/1.png')",
+        'second':"url('assets/2.png')",
+        'third':"url('assets/3.png')",
+        'fourth':"url('assets/4.jpg')",
+        'fifth':"url('assets/5.jpg')",
       },
       keyframes:{
         slideRight:{
